@@ -48,7 +48,7 @@ function dersJson() {
   return JSON.stringify({
     kod: "BMH231",
     ad: "Web Programlama",
-    gun: "Belirlenecek",
+    gun: "Cuma",
   });
 }
 
