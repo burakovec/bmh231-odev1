@@ -27,6 +27,23 @@ function anaSayfaHtml() {
 </html>`;
 }
 
+
+function hakkimdaHtml() {
+  return `<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <title>Hakkımda</title>
+</head>
+<body>
+  <h1>Hakkımda</h1>
+  <p>Merhaba, ben Burak Öveç. Bilgisayar Mühendisliği öğrencisiyim.</p>
+  <p>BMH231 Web Programlama dersi kapsamında bu küçük sunucuyu geliştirdim.</p>
+  <p><a href="/">Ana sayfaya dön</a></p>
+</body>
+</html>`;
+}
+
 function dersJson() {
   return JSON.stringify({
     kod: "BMH231",
@@ -58,6 +75,12 @@ const server = http.createServer((req, res) => {
 
   if (path === "/") {
     send(res, 200, "text/html", anaSayfaHtml());
+    return;
+  }
+
+
+  if (path === "/hakkimda") {
+    send(res, 200, "text/html", hakkimdaHtml());
     return;
   }
 
