@@ -1,0 +1,23 @@
+{
+  "name": "bmh231-odev1",
+  "version": "1.0.0",
+  "description": "BMH231 Odev 1 - kucuk HTTP sunucusu",
+  "main": "sunucu.js",
+  "scripts": {
+    "start": "node sunucu.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burakovec/bmh231-odev1.git"
+  },
+  "keywords": [],
+  "author": "Burak Ovec",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/burakovec/bmh231-odev1/issues"
+  },
+  "homepage": "https://github.com/burakovec/bmh231-odev1#readme",
+  "dependencies": {
+    "dayjs": "^1.11.23"
+  }
+}
