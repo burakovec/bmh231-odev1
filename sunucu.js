@@ -20,7 +20,7 @@ function anaSayfaHtml() {
   <title>BMH231 Ödev 1</title>
 </head>
 <body>
-  <h1>BMH231 Web Programlama</h1>
+  <h1>BMH231 Ana Sayfa - Baslik Dali</h1>
   <p>Küçük Node.js HTTP sunucusuna hoş geldiniz.</p>
   <p><a href="/hakkimda">Hakkımda</a></p>
 </body>
